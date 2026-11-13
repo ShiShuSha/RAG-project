@@ -1,0 +1,21 @@
+# Основные зависимости RAG-прототипа
+langchain>=0.3,<2
+langchain-core>=0.3,<2
+langchain-text-splitters>=0.3,<2
+langchain-chroma>=0.2,<2
+langchain-huggingface>=0.1,<2
+
+# Векторная БД и эмбеддинги
+chromadb>=0.5,<2
+sentence-transformers>=3.0
+huggingface_hub>=0.24
+numpy>=1.26
+
+# Загрузка документов
+pypdf>=4.0
+docx2txt>=0.8
+
+# Конфигурация и опциональные LLM-провайдеры
+python-dotenv>=1.0
+langchain-ollama>=0.2,<2
+langchain-openai>=0.2,<2
